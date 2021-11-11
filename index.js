@@ -75,7 +75,7 @@ async function run() {
                res.json(result)
           })
 
-          //Get all orders
+          //Get all ORders
           app.get('/allOrders', async(req, res )=> {
                const cursor = ordersCollection.find({})
                const result = await cursor.toArray()
