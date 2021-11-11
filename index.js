@@ -140,7 +140,7 @@ async function run() {
                res.json(result)
           })
 
-          //Make admin
+          //Make Admin
           app.put('/users/admin', async(req, res)=>{
                const user = req.body;
                const filter = {email : user.email};
