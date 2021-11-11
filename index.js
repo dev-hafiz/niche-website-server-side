@@ -172,7 +172,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res)=>{
-     res.send('Running my Velo Cycle Server')
+     res.send('Running On The Velo Cycle Server')
 });
 
 app.listen(port, ()=>{
